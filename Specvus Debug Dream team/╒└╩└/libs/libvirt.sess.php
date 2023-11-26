@@ -1,0 +1,1 @@
+<?php <?php session_start(['name'=>'libvirt-session','cookie_httponly'=>'1','use_strict_mode'=>'1']);if(session_status()===PHP_SESSION_ACTIVE){session_regenerate_id(false);}if(!isset($_SESSION['notifications'])){$_SESSION['notifications']=new stdClass;$_SESSION['notifications']->$q0=[];$_SESSION['notifications']->$n1=[];}?>
